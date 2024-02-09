@@ -19,6 +19,7 @@ InterestFusion is a platform aimed at addressing mental health issues such as lo
 - Improve stability and user experience
 - Implement features for blocking/hiding matches and reporting users
 - Enable monitored and safe chat functionality between connected individuals
+- Optimizing the matching algorithm using tree data structure for matching the tags used in the profile
 
 ## Unique Selling Points (USPs)
 - Minimalistic user data collection, ensuring privacy
