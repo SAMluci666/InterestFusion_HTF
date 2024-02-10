@@ -1,5 +1,6 @@
 import React from 'react';
 import './ProfileForm.css';
+
 class ProfileForm extends React.Component {
     constructor(props) {
         super(props);
@@ -68,7 +69,7 @@ if (bio.length > 500) {
             <div className="container mt-5">
                 <form onSubmit={this.handleSubmit}>
                     <div className="form-group">
-                        <label>Name</label>
+                        <label><i class="fas fa-user"></i> Name</label>
                         <input type="text" className="form-control" placeholder="Enter Full Name" name="name" value={this.state.name} onChange={this.handleChange} required />
                     </div>
                     <div class="form-group">
@@ -107,7 +108,7 @@ if (bio.length > 500) {
                     </select>
                 </div>
                     <div className="form-group">
-                        <label>Profile Picture</label>
+                        <label><i class="fas fa-image"></i> Profile Picture</label>
                         <input type="file" className="form-control-file" name="pic" onChange={this.handleFileChange} />
                     </div>
 
